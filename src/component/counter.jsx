@@ -4,7 +4,6 @@ class counter extends Component {
   state = {
     count: 0,
   };
-
   handleIncrement = () => {
     //react update by calling the set state
     this.setState({ count: this.state.count + 1 });
